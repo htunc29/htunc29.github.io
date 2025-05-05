@@ -1,3 +1,52 @@
+# Site settings
+title: "Hüseyin's Homepage"
+description: "Bookmark this to keep an eye on my project updates!"
+url: "https://yourusername.github.io" # Değiştir
+baseurl: "/" # GitHub Pages'de root'a yönlendirecek
+twitter_username: "yourusername" # Twitter kullanıcı adını ekleyebilirsin
+github_username: "yourusername"  # GitHub kullanıcı adını ekleyebilirsin
+
+# Author settings
+author:
+  name: "Hüseyin Tunç"
+  email: "your.email@example.com" # Email adresini ekleyebilirsin
+  twitter: "yourusername" # Twitter profilini ekle
+  github: "yourusername" # GitHub profilini ekle
+
+# Theme settings
 theme: jekyll-theme-minimal
-title: Hüseyin's homepage
-description: Bookmark this to keep an eye on my project updates!
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+exclude:
+  - "README.md" # Okunmasını istemediğin dosyaları hariç tutabilirsin
+
+# Plugins
+plugins:
+  - jekyll-feed # Eğer bir RSS feed oluşturmak istersen
+  - jekyll-seo-tag # SEO ayarları için
+
+# Social settings
+social_links:
+  - name: "Twitter"
+    url: "https://twitter.com/yourusername" # Twitter profilini linkle
+  - name: "GitHub"
+    url: "https://github.com/yourusername" # GitHub profilini linkle
+
+# Navigation
+nav:
+  - title: "Home"
+    url: "/"
+  - title: "Projects"
+    url: "/projects"
+  - title: "Blog"
+    url: "/blog"
+  - title: "Contact"
+    url: "/contact"
+
+# Google Analytics (opsiyonel)
+google_analytics: "UA-XXXXXXXXX-X" # Google Analytics kodunu ekleyebilirsin
+
+# Other settings
+plugins_dir: "_plugins"
