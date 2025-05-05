@@ -20,7 +20,7 @@ theme: jekyll-theme-minimal
 markdown: kramdown
 highlighter: rouge
 exclude:
-  - "README.md" # Okunmasını istemediğin dosyaları hariç tutabilirsin
+  -  # Okunmasını istemediğin dosyaları hariç tutabilirsin
 
 # Plugins
 plugins:
