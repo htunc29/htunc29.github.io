@@ -1,10 +1,10 @@
 # Site settings
 title: "Hüseyin's Homepage"
 description: "Bookmark this to keep an eye on my project updates!"
-url: "https://yourusername.github.io" # Değiştir
+url: "https://htunc29.github.io" # Değiştir
 baseurl: "/" # GitHub Pages'de root'a yönlendirecek
-twitter_username: "yourusername" # Twitter kullanıcı adını ekleyebilirsin
-github_username: "yourusername"  # GitHub kullanıcı adını ekleyebilirsin
+twitter_username: "htunc29" # Twitter kullanıcı adını ekleyebilirsin
+github_username: "htunc29"  # GitHub kullanıcı adını ekleyebilirsin
 
 # Author settings
 author:
